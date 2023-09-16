@@ -14,7 +14,7 @@ public class Main {
             mylist.add(i);
         }
 
-        System.out.println("Performance Test between For and ForEach for ArrayList = "+ mylist.size());
+        System.out.println("Performance Test between For and ForEach Loop for ArrayList = "+ mylist.size());
         long forLoopStartTime = System.currentTimeMillis();
         for (int i = 0; i < mylist.size(); i++) {mylist.get(i);}
 
